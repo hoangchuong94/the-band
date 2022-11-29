@@ -1,0 +1,76 @@
+
+/* ui mobile */
+@media (max-width: 767px){
+    #header{
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu {
+        display: block;
+    }
+
+    #header #nav li {
+        display: block;
+    }
+
+
+    #header #nav > li:first-child {
+        display: inline;
+    }
+
+    #slider .text-slider {
+        display: none;
+    }
+    
+    .members-lists .member-item-mobile, .tour-list .tour-item {
+       width: 100%;
+       margin-bottom: 16px;
+    }
+
+    .tuour-list .tour-item img:hover {
+        background-color: #ddd;
+        opacity: 0.5px;
+    }
+    
+    .contact-form, .contact-infor {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .row .btn-mobile {
+        width: 100%;
+    }
+}
+
+/* ui ipad */
+
+@media (min-width: 767px) and (max-width: 1023px) {
+    #header .search-btn {
+        display: block;
+    }
+
+    #header .mobile-menu {
+        display: none;
+    }
+}
+
+
+/* ui pc */
+
+@media (min-width: 1024px) {
+    #header .mobile-menu {
+        display: none;
+    }
+
+    #header .search-btn {
+        display: block;
+    }
+
+
+    
+    
+}
